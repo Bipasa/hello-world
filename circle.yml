@@ -1,4 +1,4 @@
-machine:
-
-  timezone:
-    America/Los_Angeles # Set the timezone
+## Customize test commands
+test:
+  override:
+   -"hello-world/test.py"
