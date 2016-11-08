@@ -2,4 +2,4 @@
 test:
   override:
    - chmod +x ~/hello-world/test.py
-   - ~/hello-world/test.py
+   - python ~/hello-world/test.py
