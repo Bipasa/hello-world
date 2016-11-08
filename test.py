@@ -1,5 +1,5 @@
- #!/usr/bin/python
- 
- def test_upper():
+#!/usr/bin/python
+
+def test_upper():
         assertEqual('foo'.upper(), 'FOO')
 
