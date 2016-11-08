@@ -1,4 +1,5 @@
 ## Customize test commands
 test:
   override:
+   - chmod +x ~/hello-world/test.py
    - ~/hello-world/test.py
